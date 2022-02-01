@@ -1,0 +1,23 @@
+.info{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.infobox{
+background: coral;
+   padding: 5% 10%;
+   border-radius: 10px;
+   margin: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen {
+    .info{
+        width: fit;
+    }
+}
