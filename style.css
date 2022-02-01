@@ -16,8 +16,13 @@ main{
     justify-content: center;
 }
 
-@media(max-width: 400px){
+img{
+    width: 200px;
+}
+
+@media(max-width: 700px){
     img{
-        width: auto;
+        width: 100px;
+        height: auto;
     }
 }
